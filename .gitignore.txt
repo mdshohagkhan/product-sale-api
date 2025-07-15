@@ -1,0 +1,91 @@
+# This .gitignore file is designed for ASP.NET Core projects.
+# It helps keep your Git repository clean by ignoring common build artifacts,
+# temporary files, and IDE-specific files.
+
+# Binaries and Object files
+[Dd]ebug/
+[Rr]elease/
+[Bb]in/
+[Oo]bj/
+*.dll
+*.exe
+*.pdb
+*.suo
+*.user
+*.userprefs
+*.ncb
+*.aps
+*.bsc
+*.sbr
+*.lib
+*.nupkg
+
+# Visual Studio files
+.vs/
+*.sln.docstates
+*.sln.suo
+*.csproj.user
+*.resharper
+
+# Rider IDE files
+.idea/
+*.DotSettings
+*.csproj.DotSettings
+
+# Visual Studio Code files
+.vscode/
+
+# NuGet packages
+packages/
+# NuGet cache files
+*.nupkg.metadata
+*.nupkg.sha512
+*.snupkg
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+*.swp
+*.bak
+*.swo
+*.log
+*.pid
+*.pid.lock
+*.sqlite3-journal
+
+# Test Results
+TestResults/
+*.trx
+
+# Docker
+.dockerignore
+Dockerfile.user
+
+# Mac OS files
+.DS_Store
+
+# Linux specific files
+*~
+# Logs
+*.log
+log/
+
+# Generated files
+# Entity Framework migrations snapshot (adjust if you commit migrations history)
+# Migrations are usually committed, but if you have snapshot files you don't want
+# to commit, you can add them here.
+# Migrations/*.Designer.cs # Uncomment if you don't want to commit designer files
+# Migrations/*Snapshot.cs  # Uncomment if you don't want to commit snapshot files
+
+# Database files (local development databases)
+*.mdf
+*.ldf
+*.db
+
+# Environment variables files
+.env
+.env.*
+
+# Miscellaneous
+[Tt]humbs.db
